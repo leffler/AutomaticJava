@@ -1,13 +1,13 @@
 import os
 
 def selectionMenu():
-    print("AutomaticJava Main Menu (and only menu for now...)")
+    print("Automatic Java Main Menu (and only menu for now...)")
     print("")
     print("+=+ Selection Menu +=+")
-    print("|+|Compile Program-Option 1: ")
-    print("|+|Run Program-Option 2: ")
-    print("|+|Compile & Run Program-Option 3: ")
-    print("|+|Exit AutomaticJava-Option 4: ")
+    print("1. Compile Program ")
+    print("2. Run Program")
+    print("3. Compile & Run Program ")
+    print("4. Exit AutomaticJava ")
     print("")
 
 def compileProgram():
