@@ -16,7 +16,7 @@ def compileProgram():
     os.system(compileCommand)
 
 def runProgram():
-    "Running your program..."
+    print("Running your program...")
     fileNameNoExt = fileName[:len(fileName) - 5]
     runCommand = "java " + fileNameNoExt
     os.system(runCommand)
@@ -28,7 +28,7 @@ while menuOpen == True:
     selection = int(input("Select an option: "))
 
     if selection == 1:
-        compileProgram
+        compileProgram()
     elif selection == 2:
         runProgram()
     elif selection == 3:
@@ -38,4 +38,4 @@ while menuOpen == True:
         menuOpen = False
         print("GoodBye")
     else:
-        print("invalid input")
+        print("Invalid Input")
