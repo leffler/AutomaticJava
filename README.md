@@ -8,7 +8,7 @@
 #
 #FUTURE UPDATES
 #Support for changing file name to be processed
-#Support for working on files not in the currect directory
+#Support for working on files not in the current directory
 #
 #
 #All feedback is welcome! 
